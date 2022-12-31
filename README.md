@@ -25,8 +25,8 @@ POST /auth
 
 ```json
 {
-	"user": "xx",
-	"password": "xx"
+   "user": "xx",
+   "password": "xx"
 }
 ```
 
