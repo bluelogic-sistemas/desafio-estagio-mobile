@@ -15,32 +15,19 @@ Para nossa primeira etapa de avaliação técnica, propomos um teste onde o obje
 
 
 **Você deve seguir como base para o desenvolvimento do layout da aplicação o seguinte mockup:**
-#### [ ► Mockup - Figma ](https://www.figma.com/file/DIwSpshqBdTfvujx801ccs/Desafio-Front?node-id=0%3A1&t=IcJWDvFDZV1zGeln-1)
+#### [ ► Mockup - Figma ](https://www.figma.com/file/r56MZpiRcB9fAEig5KefJn/Desafio-Flutter?node-id=0%3A1&t=n8x6hw8WjLztXMM3-1)
 
-Com base no mockup do link acima você deve criar uma aplicação Front-end que consome a seguinte API : **[IMDb API](https://rapidapi.com/apidojo/api/imdb8/)**. Esta API é pública e tem dados de diversos filmes de todo o mundo. Para obter todas as informações sobre a API, pelo mesmo link você tem acesso a documentação da mesma.
+Com base no mockup do link acima você deve criar uma aplicação Front-end que consome a seguinte API : **[Blue API](https://tb7tsezd87.execute-api.eu-west-2.amazonaws.com/)**. Esta API contem dois métodos uma para autenticação e outro para uma lista de serviços.
 
 ## 💽 Requisitos
 
 A aplicação deve ser componentizada, com os seguintes componentes obrigatórios:
 
-- ***Header*** (Componente de cabeçalho);
-- ***Footer*** (Componente de rodapé);
-- ***Banner*** (Componente de banner com imagens recuperadas da API do IMBb);
-- ***ListFilms*** (Componente de listagem de filmes com dados recuperados da API do IMBb);
-- ***ListResults*** (Componente de listagem de filmes com dados recuperados da API do IMBb após um filtro aplicado via Front-End);
-- ***Details*** (Componente de descrição da biografia/filmogragia/descrição de um filme com dados recuperados da API do IMBb).
+- ***Splash*** (Primeira interface a ser visualizada pelo usuário quando abrir o aplicativo);
+- ***Login*** (Interface para login na aplicação);
+- ***Home*** (Interface para visualizar os serviços, e alguns dados do usuário);
 
-A aplicação deve conter no mínimo as quatro páginas apresentadas no mockup com as seguintes rotas:
-
-- ***/home ►*** Página incial da aplicação;
-- ***/search ►*** Página que lista os filmes após serem filtrados via o campo de input presente no header;
-- ***/movie-detail ►*** Página que exibe os detalhes de um filme selecionado;
-
-A aplicação deve conter um campo de busca no header das páginas, que quando submetido renderiza a página `/search` contendo os filmes retornados da busca na API do IMDb.
-
-⚠️ **O layout apresentado no Figma não precisa ser seguido 100% fiel, você pode implementar novas features, funcionalidades, campos, animações, etc... como bem desejar! Use sua criatividade com base no layout apresentado para nos surpreender, isso pode acabar contando mais pontos no seu desafio.** 😃
-
-**Você também pode utilizar bibliotecas de componentes já existentes de sua escolha, como por exemplo MaterialUI, Tailwind, Bootstrap, etc..**
+A aplicação deve seguir o mockup do figma.
 
 
 ## Como entregar o desafio
