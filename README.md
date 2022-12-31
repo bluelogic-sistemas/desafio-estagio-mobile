@@ -21,6 +21,15 @@ Com base no mockup do link acima você deve criar uma aplicação Front-end que 
 
 ### Payload da API
 
+POST /auth
+
+```json
+{
+	"user": "xx",
+	"password": "xx"
+}
+```
+
 GET /users
 
 ```json
@@ -55,15 +64,6 @@ GET /users
          "status":"CANCELADO"
       }
    ]
-}
-```
-
-POST /auth
-
-```json
-{
-	"user": "xx",
-	"password": "xx"
 }
 ```
 
