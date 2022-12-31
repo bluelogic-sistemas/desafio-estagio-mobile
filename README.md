@@ -19,6 +19,54 @@ Para nossa primeira etapa de avaliação técnica, propomos um teste onde o obje
 
 Com base no mockup do link acima você deve criar uma aplicação Front-end que consome a seguinte API : **[Blue API](https://tb7tsezd87.execute-api.eu-west-2.amazonaws.com/)**. Esta API contem dois métodos uma para autenticação e outro para uma lista de serviços.
 
+### Payload da API
+
+GET /users
+
+```json
+{
+   "user":"Fernando",
+   "service_finish":100,
+   "service_pending":20,
+   "services":[
+      {
+         "company":"Empresa A",
+         "location":"Rua XYZ",
+         "status":"INICIADO"
+      },
+      {
+         "company":"Empresa A",
+         "location":"Rua XYZ",
+         "status":"CANCELADO"
+      },
+      {
+         "company":"Empresa A",
+         "location":"Rua XYZ",
+         "status":"CONCLUÍDO"
+      },
+      {
+         "company":"Empresa BB",
+         "location":"Rua XYZ",
+         "status":"CONCLUÍDO"
+      },
+      {
+         "company":"Empresa AA",
+         "location":"Rua XYZ",
+         "status":"CANCELADO"
+      }
+   ]
+}
+```
+
+POST /auth
+
+```json
+{
+	"user": "xx",
+	"password": "xx"
+}
+```
+
 ## 💽 Requisitos
 
 A aplicação deve ser componentizada, com os seguintes componentes obrigatórios:
